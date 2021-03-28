@@ -1667,7 +1667,7 @@ section.pabrik .right .info a:hover {
 }
 .product-tab-choose{
   border-bottom: 1px solid #C0C4CD;
-  width: 450px;
+  width: 100%;
 }
 .product-tab{
   color: #312D75;
@@ -1727,10 +1727,10 @@ input.price-form {
   border-bottom:1px solid #757575;
 }
 input.price-form.unit{
-  width: 150px;
+  width: 120px;
 }
 input.price-form.total{
-  width: 220px;
+  width: 150px;
 }
 input.price-form:focus     { outline:none; }
 
@@ -1819,7 +1819,7 @@ input.price-form:focus ~ .highlight {
 }
   /* BUTTON */
   .padding-button{
-    padding: 1rem 2rem;
+    padding: 1rem;
   }
 .primary-button{
   color: #312D75;
@@ -2041,6 +2041,9 @@ input.price-form:focus ~ .highlight {
     opacity: 0;
     transition: 0.5s;
 }
+.carousel-img{
+  width: 100%;
+}
 .nav-icon{
   font-size: 40pt;
   margin-top: 30px;
@@ -2057,6 +2060,22 @@ margin-left: 20px;
 
  /* RESPONSIVE */
  @media (min-width: 768px) {
+  .padding-button{
+    padding: 1rem 2rem;
+  }
+  input.price-form.unit{
+    width: 150px;
+  }
+  input.price-form.total{
+    width: 220px;
+  }
+  .product-tab-choose{
+    border-bottom: 1px solid #C0C4CD;
+    width: 450px;
+  }
+  .carousel-img{
+    width: auto !important;
+  }
   .choose{
     cursor: default !important;
   }
