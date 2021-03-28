@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>digipack</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="styles/vendor.css" />
+    <link rel="stylesheet" href="styles/maintenance.css" />
+    <script src="scripts/vendor.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <h2 class="text-center mt-5 font-weight-bold heading-2"><span class="secondary-color">Oops... </span>Sorry</h2>
+        <h2 class="text-center font-weight-bold heading-2">The site is currently down for <span class="secondary-color">Maintenance</span></h2>
+        <div class="row margin-top">
+            <div class="col-md-4">
+                <h1 class="font-weight-bold heading d-none d-md-block">We'll be <br> back</h1>
+                <h1 class="font-weight-bold heading d-block d-md-none text-center">We'll be back</h1>
+
+                <h1 class="secondary-color font-weight-bold heading text-center text-md-left">soon !</h1>
+            </div>
+            <div class="col-md-8 img-container">
+                <img class="img-change" src=""   alt="">
+                
+            </div>
+        </div>
+  
+    </div>
+    <script>
+const images = [
+    "images/maintenance/1.png",
+	"images/maintenance/2.png",
+	"images/maintenance/3.png",
+	"images/maintenance/4.png",
+    "images/maintenance/5.png",
+
+]
+var current = 0;
+setInterval(function(){
+			
+  $('.img-change').attr('src', images[current]);
+  current = (current < images.length - 1)? current + 1: 0;
+
+},400); /*1000 = 1 sec*/
+    </script>
+  </body>
+</html>

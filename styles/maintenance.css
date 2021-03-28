@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color:  #001689;
+    box-sizing: border-box !important;
+   
+  }
+  .secondary-color{
+    color: #ED1C24;
+
+  }
+  .heading{
+      font-size: 3rem;
+  }
+  @media (min-width: 768px) {
+    .heading{
+        font-size: 4rem;
+    }
+  }
+  .heading-2{
+    font-size: 2rem;
+  }
+ .img-change{
+     width: 100%;
+ }
+ .margin-top{
+margin-top: 4rem;
+ }
