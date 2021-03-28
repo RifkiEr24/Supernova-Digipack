@@ -10,6 +10,7 @@ body {
   }
   .heading{
       font-size: 3rem;
+      font-weight:800 !important;
   }
   @media (min-width: 768px) {
     .heading{
@@ -23,5 +24,5 @@ body {
      width: 100%;
  }
  .margin-top{
-margin-top: 4rem;
+margin-top: 5rem;
  }
